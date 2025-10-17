@@ -1,9 +1,11 @@
 🧠 **Smart Task Planner**
+
 Smart Task Planner is an AI-powered productivity assistant that breaks down any user-defined goal into a set of actionable tasks with timelines, dependencies, and progress tracking.
 Powered by an LLM reasoning engine and a simple scheduling algorithm, it helps users transform vague goals into structured, achievable plans.
 
 
 🚀 **Features**
+
 1. Goal-based task generation: Enter a goal like “Launch mobile app in 2 weeks” - get an auto-generated list of subtasks with deadlines and dependencies.
 2. Timeline estimation: Tasks are scheduled based on logical dependencies and estimated effort.
 3. Task dependencies: Each generated task references its prerequisites (e.g., Design before Development).
@@ -76,7 +78,7 @@ GET	/api/plan/{id}	Get plan by ID
 DELETE	/api/plan/{id}	Delete plan
 
 
-🧪 Future Enhancements
+🧪 **Future Enhancements**
 
 ✅ User login & authentication
 
