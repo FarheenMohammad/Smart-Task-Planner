@@ -28,7 +28,9 @@ Modular backend with FastAPI, making it easy to integrate different LLMs (OpenAI
 
 
 💡 **Example Usage**
+
 Input
+
 “Build a portfolio website in 1 week with a team of 2”
 
 Output (Sample)
