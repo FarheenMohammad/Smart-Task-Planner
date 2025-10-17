@@ -53,6 +53,7 @@ Deploy & review	1 day	Testing & bug fixes	Oct 24	Oct 24
 
 
 🧠 **How It Works**
+
 Input Parsing: User submits a goal text + optional parameters (deadline, team size).
 
 LLM Reasoning: LLM generates subtasks, dependencies, and estimated durations.
@@ -63,16 +64,26 @@ Storage & Retrieval: Tasks are saved in SQLite for persistent access.
 
 
 🧩 **API Endpoints**
+
 Method	Endpoint	Description
+
 POST	/api/plan	Generate task plan for given goal
+
 GET	/api/plans	Retrieve all stored plans
+
 GET	/api/plan/{id}	Get plan by ID
+
 DELETE	/api/plan/{id}	Delete plan
 
 
 🧪 Future Enhancements
+
 ✅ User login & authentication
+
 ✅ Export plan to PDF/Excel
+
 ✅ Gantt chart visualization
+
 ✅ Integration with Google Calendar
+
 ✅ Multi-user collaboration
